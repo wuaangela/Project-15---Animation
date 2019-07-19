@@ -12,6 +12,7 @@
 		2EE60A6E22E17040007F5015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE60A6C22E17040007F5015 /* Main.storyboard */; };
 		2EE60A7022E17043007F5015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE60A6F22E17043007F5015 /* Assets.xcassets */; };
 		2EE60A7322E17043007F5015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE60A7122E17043007F5015 /* LaunchScreen.storyboard */; };
+		2EE60A7C22E1705D007F5015 /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EE60A7B22E1705D007F5015 /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2EE60A6F22E17043007F5015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EE60A7222E17043007F5015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EE60A7422E17043007F5015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE60A7B22E1705D007F5015 /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,19 @@
 				2EE60A6A22E17040007F5015 /* ViewController.swift */,
 				2EE60A6C22E17040007F5015 /* Main.storyboard */,
 				2EE60A6F22E17043007F5015 /* Assets.xcassets */,
+				2EE60A7A22E1705D007F5015 /* Content */,
 				2EE60A7122E17043007F5015 /* LaunchScreen.storyboard */,
 				2EE60A7422E17043007F5015 /* Info.plist */,
 			);
 			path = "Project 15 - Animation";
+			sourceTree = "<group>";
+		};
+		2EE60A7A22E1705D007F5015 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				2EE60A7B22E1705D007F5015 /* penguin@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE60A7322E17043007F5015 /* LaunchScreen.storyboard in Resources */,
+				2EE60A7C22E1705D007F5015 /* penguin@2x.png in Resources */,
 				2EE60A7022E17043007F5015 /* Assets.xcassets in Resources */,
 				2EE60A6E22E17040007F5015 /* Main.storyboard in Resources */,
 			);
@@ -292,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AngelaWu.Project-15---Animation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AngelaWu.Project-15---Animation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
